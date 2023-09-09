@@ -3,7 +3,7 @@
 $(function(){
 
     $('.bars').click(function(){
-        $('.menu_item').toggleClass('open_menu')
+        $('.menu_item').slideToggle(1000)
     })
 
 
@@ -16,6 +16,8 @@ $(function(){
 
         if(scrollTop > 500){
             $('.back_to_top').show(500);
+            $('.menu_item').hide(100);
+
         }else{
             $('.back_to_top').hide(500);
         }

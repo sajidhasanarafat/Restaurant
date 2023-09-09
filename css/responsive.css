@@ -66,14 +66,7 @@
         background: #c0ad51;
         width: 100%;
         margin-top: 20px;
-        transition: all .5s;
-        transform: scaleY(0);
-        transform-origin: top;
         display: none;
-    }
-    .open_menu{
-        transform: scaleY(1) !important;
-        display: block !important;
     }
     .menu_item ul {
         flex-direction: column;
